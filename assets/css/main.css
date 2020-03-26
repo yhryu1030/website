@@ -238,6 +238,45 @@ input, select, textarea {
 		font-size: 16px;
 	}
 
+	.experienceBlock {
+		align-content: center;
+		padding-top: 15px;
+	}
+
+	.experienceList {
+		text-align: left;
+		margin: 20px;
+		padding-left: 20px;
+		border-left: 4px solid #8C2D4F
+	}
+
+	.title {
+		font-weight: bold;
+		color: black;
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+
+	.site {
+		color: #51718A;
+		font-size: 15px;
+		font-style: italic;
+		text-decoration: none;
+	}
+
+	.time {
+		float: right;
+		color: #51718A;
+		font-size: 15px;
+		font-style: italic;
+	}
+
+	.list {
+		margin-left: 35px;
+		font-size: 18px;
+		color: black;
+	}
+
 /* Container */
 
 	.container {
