@@ -221,62 +221,6 @@ input, select, textarea {
 			font-size: 1.25em;
 		}
 
-/* Added by Chase Yoo */
-	.textleftjustify {
-		text-align: left;
-	}
-
-	p {
-		color: black;
-	}
-
-	.aboutme {
-		background-color: #F2DDD5;
-		border-radius: 30px;
-		color: black;
-		padding: 2em;
-		font-size: 16px;
-	}
-
-	.experienceBlock {
-		align-content: center;
-		padding-top: 15px;
-	}
-
-	.experienceList {
-		text-align: left;
-		margin: 20px;
-		padding-left: 20px;
-		border-left: 4px solid #8C2D4F
-	}
-
-	.title {
-		font-weight: bold;
-		color: black;
-		font-size: 20px;
-		margin-bottom: 10px;
-	}
-
-	.site {
-		color: #51718A;
-		font-size: 15px;
-		font-style: italic;
-		text-decoration: none;
-	}
-
-	.time {
-		float: right;
-		color: #51718A;
-		font-size: 15px;
-		font-style: italic;
-	}
-
-	.list {
-		margin-left: 35px;
-		font-size: 18px;
-		color: black;
-	}
-
 /* Container */
 
 	.container {
@@ -1690,7 +1634,13 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			width: 100%;
+			width: 90%;
+			height: 90%;
+			max-height: 400px;
+			max-width: 400px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 1em;
 		}
 
 		.image.featured {
@@ -2173,7 +2123,7 @@ input, select, textarea {
 		}
 
 			#top .image img {
-				border-radius: 100%;
+				border-radius: 0%;
 			}
 
 		#top h1 {
@@ -2499,3 +2449,100 @@ input, select, textarea {
 					}
 
 	}
+
+/* Added by Chase Yoo, with help from Kevin Shin */
+.textleftjustify {
+	text-align: left;
+}
+
+p {
+	color: black;
+}
+
+.aboutme {
+	background-color: #F2DDD5;
+	border-radius: 30px;
+	color: black;
+	padding: 2em;
+	font-size: 16px;
+}
+
+.experienceBlock {
+	align-content: center;
+	padding-top: 15px;
+}
+
+.experienceList {
+	text-align: left;
+	margin: 20px;
+	padding-left: 20px;
+	border-left: 4px solid #8C2D4F
+}
+
+.title {
+	font-weight: bold;
+	color: black;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.site {
+	color: #51718A;
+	font-size: 15px;
+	font-style: italic;
+	text-decoration: none;
+}
+
+.time {
+	float: right;
+	color: #51718A;
+	font-size: 15px;
+	font-style: italic;
+}
+
+.list {
+	margin-left: 35px;
+	font-size: 18px;
+	color: black;
+}
+
+.projectItem {
+	background: white;
+	text-align: left;
+	border-radius: 10px;
+	display: inline-flex;
+	margin: 5px 0px 5px 0px;
+	padding: 0px 50px 0px 20px;
+	box-shadow: 0px 0px 12px -4px rgba(0,0,0,0.75);
+}
+
+.projectImage {
+	display: inline-block;
+	padding: 20px 10px 10px 10px;
+	text-align: center;
+	align-content: center;
+}
+
+.awardList {
+	text-align: left;
+}
+
+dl.alt dt {
+	display: block;
+	width: 3em;
+	margin: 0;
+	clear: left;
+	float: left;
+	text-align: left;
+}
+
+dl.alt dd {
+	margin: 0 0 0.85em 5.5em;
+	color: white;
+	text-align: left;
+}
+
+dl dt {
+	color: white;
+	font-weight: 400;
+}
